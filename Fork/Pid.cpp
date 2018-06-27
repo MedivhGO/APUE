@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <stdlib.h>
-int main1()
+int Pid()
 {
     printf("pid=%d\n",getpid());
     printf("ppid=%d\n",getppid());

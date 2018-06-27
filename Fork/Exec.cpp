@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <pwd.h>
 #include <sys/types.h>
-int main1()
+int Exec()
 {
 	char *args[] = {
 		"/bin/ls",

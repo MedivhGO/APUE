@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-int main1(int arg,char *args[])
+int NonaPipe(int arg,char *args[])
 {
     int fd[2];
     char buf[100];

@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-int main1(int arg, char *args[])
+int Wait(int arg, char *args[])
 {
 	pid_t pid = fork();//调用fork之后会有两个进程
 	int status;

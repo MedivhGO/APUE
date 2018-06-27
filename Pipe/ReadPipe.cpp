@@ -5,7 +5,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-int main1()
+int ReadPipe()
 {
     int len = 0;
     char buf[100];

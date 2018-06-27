@@ -9,7 +9,7 @@ int test()
 	abort();
 	return 0;
 }
-int main1(int arg,char *args[])
+int Abort(int arg,char *args[])
 {
 	pid_t pid = 0;
 	pid = fork();

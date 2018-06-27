@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-int main1(int arg,char *args[])
+int Kill(int arg,char *args[])
 {
     if(arg > 1){
         int pid = atoi(args[1]);
