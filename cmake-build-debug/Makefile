@@ -123,6 +123,789 @@ APUE/fast:
 	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/build
 .PHONY : APUE/fast
 
+FileAPI/FD.o: FileAPI/FD.cpp.o
+
+.PHONY : FileAPI/FD.o
+
+# target to build an object file
+FileAPI/FD.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/FD.cpp.o
+.PHONY : FileAPI/FD.cpp.o
+
+FileAPI/FD.i: FileAPI/FD.cpp.i
+
+.PHONY : FileAPI/FD.i
+
+# target to preprocess a source file
+FileAPI/FD.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/FD.cpp.i
+.PHONY : FileAPI/FD.cpp.i
+
+FileAPI/FD.s: FileAPI/FD.cpp.s
+
+.PHONY : FileAPI/FD.s
+
+# target to generate assembly for a file
+FileAPI/FD.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/FD.cpp.s
+.PHONY : FileAPI/FD.cpp.s
+
+FileAPI/Fgets.o: FileAPI/Fgets.cpp.o
+
+.PHONY : FileAPI/Fgets.o
+
+# target to build an object file
+FileAPI/Fgets.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fgets.cpp.o
+.PHONY : FileAPI/Fgets.cpp.o
+
+FileAPI/Fgets.i: FileAPI/Fgets.cpp.i
+
+.PHONY : FileAPI/Fgets.i
+
+# target to preprocess a source file
+FileAPI/Fgets.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fgets.cpp.i
+.PHONY : FileAPI/Fgets.cpp.i
+
+FileAPI/Fgets.s: FileAPI/Fgets.cpp.s
+
+.PHONY : FileAPI/Fgets.s
+
+# target to generate assembly for a file
+FileAPI/Fgets.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fgets.cpp.s
+.PHONY : FileAPI/Fgets.cpp.s
+
+FileAPI/Fprintf.o: FileAPI/Fprintf.cpp.o
+
+.PHONY : FileAPI/Fprintf.o
+
+# target to build an object file
+FileAPI/Fprintf.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fprintf.cpp.o
+.PHONY : FileAPI/Fprintf.cpp.o
+
+FileAPI/Fprintf.i: FileAPI/Fprintf.cpp.i
+
+.PHONY : FileAPI/Fprintf.i
+
+# target to preprocess a source file
+FileAPI/Fprintf.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fprintf.cpp.i
+.PHONY : FileAPI/Fprintf.cpp.i
+
+FileAPI/Fprintf.s: FileAPI/Fprintf.cpp.s
+
+.PHONY : FileAPI/Fprintf.s
+
+# target to generate assembly for a file
+FileAPI/Fprintf.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fprintf.cpp.s
+.PHONY : FileAPI/Fprintf.cpp.s
+
+FileAPI/Fputs.o: FileAPI/Fputs.c.o
+
+.PHONY : FileAPI/Fputs.o
+
+# target to build an object file
+FileAPI/Fputs.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fputs.c.o
+.PHONY : FileAPI/Fputs.c.o
+
+FileAPI/Fputs.i: FileAPI/Fputs.c.i
+
+.PHONY : FileAPI/Fputs.i
+
+# target to preprocess a source file
+FileAPI/Fputs.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fputs.c.i
+.PHONY : FileAPI/Fputs.c.i
+
+FileAPI/Fputs.s: FileAPI/Fputs.c.s
+
+.PHONY : FileAPI/Fputs.s
+
+# target to generate assembly for a file
+FileAPI/Fputs.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fputs.c.s
+.PHONY : FileAPI/Fputs.c.s
+
+FileAPI/Fread.o: FileAPI/Fread.c.o
+
+.PHONY : FileAPI/Fread.o
+
+# target to build an object file
+FileAPI/Fread.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fread.c.o
+.PHONY : FileAPI/Fread.c.o
+
+FileAPI/Fread.i: FileAPI/Fread.c.i
+
+.PHONY : FileAPI/Fread.i
+
+# target to preprocess a source file
+FileAPI/Fread.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fread.c.i
+.PHONY : FileAPI/Fread.c.i
+
+FileAPI/Fread.s: FileAPI/Fread.c.s
+
+.PHONY : FileAPI/Fread.s
+
+# target to generate assembly for a file
+FileAPI/Fread.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fread.c.s
+.PHONY : FileAPI/Fread.c.s
+
+FileAPI/Fscanf.o: FileAPI/Fscanf.c.o
+
+.PHONY : FileAPI/Fscanf.o
+
+# target to build an object file
+FileAPI/Fscanf.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fscanf.c.o
+.PHONY : FileAPI/Fscanf.c.o
+
+FileAPI/Fscanf.i: FileAPI/Fscanf.c.i
+
+.PHONY : FileAPI/Fscanf.i
+
+# target to preprocess a source file
+FileAPI/Fscanf.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fscanf.c.i
+.PHONY : FileAPI/Fscanf.c.i
+
+FileAPI/Fscanf.s: FileAPI/Fscanf.c.s
+
+.PHONY : FileAPI/Fscanf.s
+
+# target to generate assembly for a file
+FileAPI/Fscanf.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fscanf.c.s
+.PHONY : FileAPI/Fscanf.c.s
+
+FileAPI/Fstat.o: FileAPI/Fstat.c.o
+
+.PHONY : FileAPI/Fstat.o
+
+# target to build an object file
+FileAPI/Fstat.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fstat.c.o
+.PHONY : FileAPI/Fstat.c.o
+
+FileAPI/Fstat.i: FileAPI/Fstat.c.i
+
+.PHONY : FileAPI/Fstat.i
+
+# target to preprocess a source file
+FileAPI/Fstat.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fstat.c.i
+.PHONY : FileAPI/Fstat.c.i
+
+FileAPI/Fstat.s: FileAPI/Fstat.c.s
+
+.PHONY : FileAPI/Fstat.s
+
+# target to generate assembly for a file
+FileAPI/Fstat.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fstat.c.s
+.PHONY : FileAPI/Fstat.c.s
+
+FileAPI/Fwrite.o: FileAPI/Fwrite.c.o
+
+.PHONY : FileAPI/Fwrite.o
+
+# target to build an object file
+FileAPI/Fwrite.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fwrite.c.o
+.PHONY : FileAPI/Fwrite.c.o
+
+FileAPI/Fwrite.i: FileAPI/Fwrite.c.i
+
+.PHONY : FileAPI/Fwrite.i
+
+# target to preprocess a source file
+FileAPI/Fwrite.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fwrite.c.i
+.PHONY : FileAPI/Fwrite.c.i
+
+FileAPI/Fwrite.s: FileAPI/Fwrite.c.s
+
+.PHONY : FileAPI/Fwrite.s
+
+# target to generate assembly for a file
+FileAPI/Fwrite.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Fwrite.c.s
+.PHONY : FileAPI/Fwrite.c.s
+
+FileAPI/GetCwd.o: FileAPI/GetCwd.c.o
+
+.PHONY : FileAPI/GetCwd.o
+
+# target to build an object file
+FileAPI/GetCwd.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/GetCwd.c.o
+.PHONY : FileAPI/GetCwd.c.o
+
+FileAPI/GetCwd.i: FileAPI/GetCwd.c.i
+
+.PHONY : FileAPI/GetCwd.i
+
+# target to preprocess a source file
+FileAPI/GetCwd.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/GetCwd.c.i
+.PHONY : FileAPI/GetCwd.c.i
+
+FileAPI/GetCwd.s: FileAPI/GetCwd.c.s
+
+.PHONY : FileAPI/GetCwd.s
+
+# target to generate assembly for a file
+FileAPI/GetCwd.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/GetCwd.c.s
+.PHONY : FileAPI/GetCwd.c.s
+
+FileAPI/Log.o: FileAPI/Log.c.o
+
+.PHONY : FileAPI/Log.o
+
+# target to build an object file
+FileAPI/Log.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Log.c.o
+.PHONY : FileAPI/Log.c.o
+
+FileAPI/Log.i: FileAPI/Log.c.i
+
+.PHONY : FileAPI/Log.i
+
+# target to preprocess a source file
+FileAPI/Log.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Log.c.i
+.PHONY : FileAPI/Log.c.i
+
+FileAPI/Log.s: FileAPI/Log.c.s
+
+.PHONY : FileAPI/Log.s
+
+# target to generate assembly for a file
+FileAPI/Log.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Log.c.s
+.PHONY : FileAPI/Log.c.s
+
+FileAPI/Read.o: FileAPI/Read.c.o
+
+.PHONY : FileAPI/Read.o
+
+# target to build an object file
+FileAPI/Read.c.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Read.c.o
+.PHONY : FileAPI/Read.c.o
+
+FileAPI/Read.i: FileAPI/Read.c.i
+
+.PHONY : FileAPI/Read.i
+
+# target to preprocess a source file
+FileAPI/Read.c.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Read.c.i
+.PHONY : FileAPI/Read.c.i
+
+FileAPI/Read.s: FileAPI/Read.c.s
+
+.PHONY : FileAPI/Read.s
+
+# target to generate assembly for a file
+FileAPI/Read.c.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Read.c.s
+.PHONY : FileAPI/Read.c.s
+
+FileAPI/Remove.o: FileAPI/Remove.cpp.o
+
+.PHONY : FileAPI/Remove.o
+
+# target to build an object file
+FileAPI/Remove.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Remove.cpp.o
+.PHONY : FileAPI/Remove.cpp.o
+
+FileAPI/Remove.i: FileAPI/Remove.cpp.i
+
+.PHONY : FileAPI/Remove.i
+
+# target to preprocess a source file
+FileAPI/Remove.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Remove.cpp.i
+.PHONY : FileAPI/Remove.cpp.i
+
+FileAPI/Remove.s: FileAPI/Remove.cpp.s
+
+.PHONY : FileAPI/Remove.s
+
+# target to generate assembly for a file
+FileAPI/Remove.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Remove.cpp.s
+.PHONY : FileAPI/Remove.cpp.s
+
+FileAPI/Rname.o: FileAPI/Rname.cpp.o
+
+.PHONY : FileAPI/Rname.o
+
+# target to build an object file
+FileAPI/Rname.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Rname.cpp.o
+.PHONY : FileAPI/Rname.cpp.o
+
+FileAPI/Rname.i: FileAPI/Rname.cpp.i
+
+.PHONY : FileAPI/Rname.i
+
+# target to preprocess a source file
+FileAPI/Rname.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Rname.cpp.i
+.PHONY : FileAPI/Rname.cpp.i
+
+FileAPI/Rname.s: FileAPI/Rname.cpp.s
+
+.PHONY : FileAPI/Rname.s
+
+# target to generate assembly for a file
+FileAPI/Rname.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Rname.cpp.s
+.PHONY : FileAPI/Rname.cpp.s
+
+FileAPI/SFwrite.o: FileAPI/SFwrite.cpp.o
+
+.PHONY : FileAPI/SFwrite.o
+
+# target to build an object file
+FileAPI/SFwrite.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/SFwrite.cpp.o
+.PHONY : FileAPI/SFwrite.cpp.o
+
+FileAPI/SFwrite.i: FileAPI/SFwrite.cpp.i
+
+.PHONY : FileAPI/SFwrite.i
+
+# target to preprocess a source file
+FileAPI/SFwrite.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/SFwrite.cpp.i
+.PHONY : FileAPI/SFwrite.cpp.i
+
+FileAPI/SFwrite.s: FileAPI/SFwrite.cpp.s
+
+.PHONY : FileAPI/SFwrite.s
+
+# target to generate assembly for a file
+FileAPI/SFwrite.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/SFwrite.cpp.s
+.PHONY : FileAPI/SFwrite.cpp.s
+
+FileAPI/Write.o: FileAPI/Write.cpp.o
+
+.PHONY : FileAPI/Write.o
+
+# target to build an object file
+FileAPI/Write.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Write.cpp.o
+.PHONY : FileAPI/Write.cpp.o
+
+FileAPI/Write.i: FileAPI/Write.cpp.i
+
+.PHONY : FileAPI/Write.i
+
+# target to preprocess a source file
+FileAPI/Write.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Write.cpp.i
+.PHONY : FileAPI/Write.cpp.i
+
+FileAPI/Write.s: FileAPI/Write.cpp.s
+
+.PHONY : FileAPI/Write.s
+
+# target to generate assembly for a file
+FileAPI/Write.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/FileAPI/Write.cpp.s
+.PHONY : FileAPI/Write.cpp.s
+
+Fork/Abort.o: Fork/Abort.cpp.o
+
+.PHONY : Fork/Abort.o
+
+# target to build an object file
+Fork/Abort.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Abort.cpp.o
+.PHONY : Fork/Abort.cpp.o
+
+Fork/Abort.i: Fork/Abort.cpp.i
+
+.PHONY : Fork/Abort.i
+
+# target to preprocess a source file
+Fork/Abort.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Abort.cpp.i
+.PHONY : Fork/Abort.cpp.i
+
+Fork/Abort.s: Fork/Abort.cpp.s
+
+.PHONY : Fork/Abort.s
+
+# target to generate assembly for a file
+Fork/Abort.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Abort.cpp.s
+.PHONY : Fork/Abort.cpp.s
+
+Fork/Exec.o: Fork/Exec.cpp.o
+
+.PHONY : Fork/Exec.o
+
+# target to build an object file
+Fork/Exec.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Exec.cpp.o
+.PHONY : Fork/Exec.cpp.o
+
+Fork/Exec.i: Fork/Exec.cpp.i
+
+.PHONY : Fork/Exec.i
+
+# target to preprocess a source file
+Fork/Exec.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Exec.cpp.i
+.PHONY : Fork/Exec.cpp.i
+
+Fork/Exec.s: Fork/Exec.cpp.s
+
+.PHONY : Fork/Exec.s
+
+# target to generate assembly for a file
+Fork/Exec.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Exec.cpp.s
+.PHONY : Fork/Exec.cpp.s
+
+Fork/Fork.o: Fork/Fork.cpp.o
+
+.PHONY : Fork/Fork.o
+
+# target to build an object file
+Fork/Fork.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Fork.cpp.o
+.PHONY : Fork/Fork.cpp.o
+
+Fork/Fork.i: Fork/Fork.cpp.i
+
+.PHONY : Fork/Fork.i
+
+# target to preprocess a source file
+Fork/Fork.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Fork.cpp.i
+.PHONY : Fork/Fork.cpp.i
+
+Fork/Fork.s: Fork/Fork.cpp.s
+
+.PHONY : Fork/Fork.s
+
+# target to generate assembly for a file
+Fork/Fork.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Fork.cpp.s
+.PHONY : Fork/Fork.cpp.s
+
+Fork/Kill.o: Fork/Kill.cpp.o
+
+.PHONY : Fork/Kill.o
+
+# target to build an object file
+Fork/Kill.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Kill.cpp.o
+.PHONY : Fork/Kill.cpp.o
+
+Fork/Kill.i: Fork/Kill.cpp.i
+
+.PHONY : Fork/Kill.i
+
+# target to preprocess a source file
+Fork/Kill.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Kill.cpp.i
+.PHONY : Fork/Kill.cpp.i
+
+Fork/Kill.s: Fork/Kill.cpp.s
+
+.PHONY : Fork/Kill.s
+
+# target to generate assembly for a file
+Fork/Kill.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Kill.cpp.s
+.PHONY : Fork/Kill.cpp.s
+
+Fork/Pid.o: Fork/Pid.cpp.o
+
+.PHONY : Fork/Pid.o
+
+# target to build an object file
+Fork/Pid.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pid.cpp.o
+.PHONY : Fork/Pid.cpp.o
+
+Fork/Pid.i: Fork/Pid.cpp.i
+
+.PHONY : Fork/Pid.i
+
+# target to preprocess a source file
+Fork/Pid.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pid.cpp.i
+.PHONY : Fork/Pid.cpp.i
+
+Fork/Pid.s: Fork/Pid.cpp.s
+
+.PHONY : Fork/Pid.s
+
+# target to generate assembly for a file
+Fork/Pid.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pid.cpp.s
+.PHONY : Fork/Pid.cpp.s
+
+Fork/Pn.o: Fork/Pn.cpp.o
+
+.PHONY : Fork/Pn.o
+
+# target to build an object file
+Fork/Pn.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pn.cpp.o
+.PHONY : Fork/Pn.cpp.o
+
+Fork/Pn.i: Fork/Pn.cpp.i
+
+.PHONY : Fork/Pn.i
+
+# target to preprocess a source file
+Fork/Pn.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pn.cpp.i
+.PHONY : Fork/Pn.cpp.i
+
+Fork/Pn.s: Fork/Pn.cpp.s
+
+.PHONY : Fork/Pn.s
+
+# target to generate assembly for a file
+Fork/Pn.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Pn.cpp.s
+.PHONY : Fork/Pn.cpp.s
+
+Fork/Sys.o: Fork/Sys.cpp.o
+
+.PHONY : Fork/Sys.o
+
+# target to build an object file
+Fork/Sys.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Sys.cpp.o
+.PHONY : Fork/Sys.cpp.o
+
+Fork/Sys.i: Fork/Sys.cpp.i
+
+.PHONY : Fork/Sys.i
+
+# target to preprocess a source file
+Fork/Sys.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Sys.cpp.i
+.PHONY : Fork/Sys.cpp.i
+
+Fork/Sys.s: Fork/Sys.cpp.s
+
+.PHONY : Fork/Sys.s
+
+# target to generate assembly for a file
+Fork/Sys.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Sys.cpp.s
+.PHONY : Fork/Sys.cpp.s
+
+Fork/Wait.o: Fork/Wait.cpp.o
+
+.PHONY : Fork/Wait.o
+
+# target to build an object file
+Fork/Wait.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Wait.cpp.o
+.PHONY : Fork/Wait.cpp.o
+
+Fork/Wait.i: Fork/Wait.cpp.i
+
+.PHONY : Fork/Wait.i
+
+# target to preprocess a source file
+Fork/Wait.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Wait.cpp.i
+.PHONY : Fork/Wait.cpp.i
+
+Fork/Wait.s: Fork/Wait.cpp.s
+
+.PHONY : Fork/Wait.s
+
+# target to generate assembly for a file
+Fork/Wait.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Fork/Wait.cpp.s
+.PHONY : Fork/Wait.cpp.s
+
+MyLS.o: MyLS.cpp.o
+
+.PHONY : MyLS.o
+
+# target to build an object file
+MyLS.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/MyLS.cpp.o
+.PHONY : MyLS.cpp.o
+
+MyLS.i: MyLS.cpp.i
+
+.PHONY : MyLS.i
+
+# target to preprocess a source file
+MyLS.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/MyLS.cpp.i
+.PHONY : MyLS.cpp.i
+
+MyLS.s: MyLS.cpp.s
+
+.PHONY : MyLS.s
+
+# target to generate assembly for a file
+MyLS.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/MyLS.cpp.s
+.PHONY : MyLS.cpp.s
+
+Pipe/NonaPipe.o: Pipe/NonaPipe.cpp.o
+
+.PHONY : Pipe/NonaPipe.o
+
+# target to build an object file
+Pipe/NonaPipe.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/NonaPipe.cpp.o
+.PHONY : Pipe/NonaPipe.cpp.o
+
+Pipe/NonaPipe.i: Pipe/NonaPipe.cpp.i
+
+.PHONY : Pipe/NonaPipe.i
+
+# target to preprocess a source file
+Pipe/NonaPipe.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/NonaPipe.cpp.i
+.PHONY : Pipe/NonaPipe.cpp.i
+
+Pipe/NonaPipe.s: Pipe/NonaPipe.cpp.s
+
+.PHONY : Pipe/NonaPipe.s
+
+# target to generate assembly for a file
+Pipe/NonaPipe.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/NonaPipe.cpp.s
+.PHONY : Pipe/NonaPipe.cpp.s
+
+Pipe/ReadPipe.o: Pipe/ReadPipe.cpp.o
+
+.PHONY : Pipe/ReadPipe.o
+
+# target to build an object file
+Pipe/ReadPipe.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/ReadPipe.cpp.o
+.PHONY : Pipe/ReadPipe.cpp.o
+
+Pipe/ReadPipe.i: Pipe/ReadPipe.cpp.i
+
+.PHONY : Pipe/ReadPipe.i
+
+# target to preprocess a source file
+Pipe/ReadPipe.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/ReadPipe.cpp.i
+.PHONY : Pipe/ReadPipe.cpp.i
+
+Pipe/ReadPipe.s: Pipe/ReadPipe.cpp.s
+
+.PHONY : Pipe/ReadPipe.s
+
+# target to generate assembly for a file
+Pipe/ReadPipe.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/ReadPipe.cpp.s
+.PHONY : Pipe/ReadPipe.cpp.s
+
+Pipe/WritePipe.o: Pipe/WritePipe.cpp.o
+
+.PHONY : Pipe/WritePipe.o
+
+# target to build an object file
+Pipe/WritePipe.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/WritePipe.cpp.o
+.PHONY : Pipe/WritePipe.cpp.o
+
+Pipe/WritePipe.i: Pipe/WritePipe.cpp.i
+
+.PHONY : Pipe/WritePipe.i
+
+# target to preprocess a source file
+Pipe/WritePipe.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/WritePipe.cpp.i
+.PHONY : Pipe/WritePipe.cpp.i
+
+Pipe/WritePipe.s: Pipe/WritePipe.cpp.s
+
+.PHONY : Pipe/WritePipe.s
+
+# target to generate assembly for a file
+Pipe/WritePipe.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Pipe/WritePipe.cpp.s
+.PHONY : Pipe/WritePipe.cpp.s
+
+Tcp/Server.o: Tcp/Server.cpp.o
+
+.PHONY : Tcp/Server.o
+
+# target to build an object file
+Tcp/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Server.cpp.o
+.PHONY : Tcp/Server.cpp.o
+
+Tcp/Server.i: Tcp/Server.cpp.i
+
+.PHONY : Tcp/Server.i
+
+# target to preprocess a source file
+Tcp/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Server.cpp.i
+.PHONY : Tcp/Server.cpp.i
+
+Tcp/Server.s: Tcp/Server.cpp.s
+
+.PHONY : Tcp/Server.s
+
+# target to generate assembly for a file
+Tcp/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Server.cpp.s
+.PHONY : Tcp/Server.cpp.s
+
+Tcp/Sock.o: Tcp/Sock.cpp.o
+
+.PHONY : Tcp/Sock.o
+
+# target to build an object file
+Tcp/Sock.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Sock.cpp.o
+.PHONY : Tcp/Sock.cpp.o
+
+Tcp/Sock.i: Tcp/Sock.cpp.i
+
+.PHONY : Tcp/Sock.i
+
+# target to preprocess a source file
+Tcp/Sock.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Sock.cpp.i
+.PHONY : Tcp/Sock.cpp.i
+
+Tcp/Sock.s: Tcp/Sock.cpp.s
+
+.PHONY : Tcp/Sock.s
+
+# target to generate assembly for a file
+Tcp/Sock.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/Tcp/Sock.cpp.s
+.PHONY : Tcp/Sock.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +942,93 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... APUE"
+	@echo "... FileAPI/FD.o"
+	@echo "... FileAPI/FD.i"
+	@echo "... FileAPI/FD.s"
+	@echo "... FileAPI/Fgets.o"
+	@echo "... FileAPI/Fgets.i"
+	@echo "... FileAPI/Fgets.s"
+	@echo "... FileAPI/Fprintf.o"
+	@echo "... FileAPI/Fprintf.i"
+	@echo "... FileAPI/Fprintf.s"
+	@echo "... FileAPI/Fputs.o"
+	@echo "... FileAPI/Fputs.i"
+	@echo "... FileAPI/Fputs.s"
+	@echo "... FileAPI/Fread.o"
+	@echo "... FileAPI/Fread.i"
+	@echo "... FileAPI/Fread.s"
+	@echo "... FileAPI/Fscanf.o"
+	@echo "... FileAPI/Fscanf.i"
+	@echo "... FileAPI/Fscanf.s"
+	@echo "... FileAPI/Fstat.o"
+	@echo "... FileAPI/Fstat.i"
+	@echo "... FileAPI/Fstat.s"
+	@echo "... FileAPI/Fwrite.o"
+	@echo "... FileAPI/Fwrite.i"
+	@echo "... FileAPI/Fwrite.s"
+	@echo "... FileAPI/GetCwd.o"
+	@echo "... FileAPI/GetCwd.i"
+	@echo "... FileAPI/GetCwd.s"
+	@echo "... FileAPI/Log.o"
+	@echo "... FileAPI/Log.i"
+	@echo "... FileAPI/Log.s"
+	@echo "... FileAPI/Read.o"
+	@echo "... FileAPI/Read.i"
+	@echo "... FileAPI/Read.s"
+	@echo "... FileAPI/Remove.o"
+	@echo "... FileAPI/Remove.i"
+	@echo "... FileAPI/Remove.s"
+	@echo "... FileAPI/Rname.o"
+	@echo "... FileAPI/Rname.i"
+	@echo "... FileAPI/Rname.s"
+	@echo "... FileAPI/SFwrite.o"
+	@echo "... FileAPI/SFwrite.i"
+	@echo "... FileAPI/SFwrite.s"
+	@echo "... FileAPI/Write.o"
+	@echo "... FileAPI/Write.i"
+	@echo "... FileAPI/Write.s"
+	@echo "... Fork/Abort.o"
+	@echo "... Fork/Abort.i"
+	@echo "... Fork/Abort.s"
+	@echo "... Fork/Exec.o"
+	@echo "... Fork/Exec.i"
+	@echo "... Fork/Exec.s"
+	@echo "... Fork/Fork.o"
+	@echo "... Fork/Fork.i"
+	@echo "... Fork/Fork.s"
+	@echo "... Fork/Kill.o"
+	@echo "... Fork/Kill.i"
+	@echo "... Fork/Kill.s"
+	@echo "... Fork/Pid.o"
+	@echo "... Fork/Pid.i"
+	@echo "... Fork/Pid.s"
+	@echo "... Fork/Pn.o"
+	@echo "... Fork/Pn.i"
+	@echo "... Fork/Pn.s"
+	@echo "... Fork/Sys.o"
+	@echo "... Fork/Sys.i"
+	@echo "... Fork/Sys.s"
+	@echo "... Fork/Wait.o"
+	@echo "... Fork/Wait.i"
+	@echo "... Fork/Wait.s"
+	@echo "... MyLS.o"
+	@echo "... MyLS.i"
+	@echo "... MyLS.s"
+	@echo "... Pipe/NonaPipe.o"
+	@echo "... Pipe/NonaPipe.i"
+	@echo "... Pipe/NonaPipe.s"
+	@echo "... Pipe/ReadPipe.o"
+	@echo "... Pipe/ReadPipe.i"
+	@echo "... Pipe/ReadPipe.s"
+	@echo "... Pipe/WritePipe.o"
+	@echo "... Pipe/WritePipe.i"
+	@echo "... Pipe/WritePipe.s"
+	@echo "... Tcp/Server.o"
+	@echo "... Tcp/Server.i"
+	@echo "... Tcp/Server.s"
+	@echo "... Tcp/Sock.o"
+	@echo "... Tcp/Sock.i"
+	@echo "... Tcp/Sock.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

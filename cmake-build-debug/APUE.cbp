@@ -80,6 +80,93 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/FD.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fgets.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fprintf.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fputs.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fread.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fscanf.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fstat.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fwrite.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/GetCwd.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Log.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Read.c">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Remove.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Rname.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/SFwrite.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Write.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Abort.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Exec.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Fork.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Kill.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Pid.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Pn.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Sys.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Wait.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/MyLS.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/NonaPipe.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/ReadPipe.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/WritePipe.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Tcp/Server.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Tcp/Sock.cpp">
+			<Option target="APUE"/>
+		</Unit>
 		<Unit filename="/Users/lijingqi/ClionProjects/APUE/main.cpp">
 			<Option target="APUE"/>
 		</Unit>
