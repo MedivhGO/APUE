@@ -1,0 +1,3 @@
+/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir
