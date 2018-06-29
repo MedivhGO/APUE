@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <unistd.h>
 int Fstat(int arg,char *args[])
 {
 	int fd = open(args[1],O_RDONLY);

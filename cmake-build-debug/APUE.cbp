@@ -167,6 +167,18 @@
 		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Tcp/Sock.cpp">
 			<Option target="APUE"/>
 		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/MutexGuard.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/MutexLock.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/noncopyable.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/lijingqi/ClionProjects/APUE/apue.h">
+			<Option target="APUE"/>
+		</Unit>
 		<Unit filename="/Users/lijingqi/ClionProjects/APUE/main.cpp">
 			<Option target="APUE"/>
 		</Unit>

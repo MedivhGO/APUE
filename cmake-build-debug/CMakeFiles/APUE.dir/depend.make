@@ -59,5 +59,6 @@ CMakeFiles/APUE.dir/Tcp/Server.cpp.o: ../Tcp/Server.cpp
 
 CMakeFiles/APUE.dir/Tcp/Sock.cpp.o: ../Tcp/Sock.cpp
 
+CMakeFiles/APUE.dir/main.cpp.o: ../apue.h
 CMakeFiles/APUE.dir/main.cpp.o: ../main.cpp
 
