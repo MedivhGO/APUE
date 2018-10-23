@@ -29,6 +29,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/APUE.dir/Pipe/NonaPipe.cpp.o"
   "CMakeFiles/APUE.dir/Tcp/Server.cpp.o"
   "CMakeFiles/APUE.dir/Tcp/Sock.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item2.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item5.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item6.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item7.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item8.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.o"
   "APUE.pdb"
   "APUE"
 )

@@ -8,181 +8,214 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug"/>
+				<Option working_dir="/Users/allen/CLionProjects/APUE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug"/>
+				<Option working_dir="/Users/allen/CLionProjects/APUE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug"/>
+				<Option working_dir="/Users/allen/CLionProjects/APUE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="APUE">
-				<Option output="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/APUE" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug"/>
+				<Option output="/Users/allen/CLionProjects/APUE/cmake-build-debug/APUE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allen/CLionProjects/APUE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 APUE"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 APUE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="APUE/fast">
-				<Option output="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/APUE" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lijingqi/ClionProjects/APUE/cmake-build-debug"/>
+				<Option output="/Users/allen/CLionProjects/APUE/cmake-build-debug/APUE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allen/CLionProjects/APUE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 APUE/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lijingqi/ClionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 APUE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allen/CLionProjects/APUE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/FD.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item2.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fgets.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item5.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fprintf.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item6.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fputs.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item7.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fread.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item8.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fscanf.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item9.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fstat.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/FD.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Fwrite.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fgets.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/GetCwd.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fprintf.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Log.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fputs.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Read.c">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fread.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Remove.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fscanf.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Rname.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fstat.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/SFwrite.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Fwrite.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/FileAPI/Write.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/GetCwd.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Abort.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Log.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Exec.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Read.c">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Fork.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Remove.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Kill.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Rname.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Pid.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/SFwrite.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Pn.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/FileAPI/Write.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Sys.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Abort.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Fork/Wait.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Exec.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/MyLS.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Fork.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/NonaPipe.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Kill.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/ReadPipe.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Pid.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Pipe/WritePipe.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Pn.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Tcp/Server.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Sys.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Tcp/Sock.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Fork/Wait.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/MutexGuard.h">
+		<Unit filename="/Users/allen/CLionProjects/APUE/MyLS.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/MutexLock.h">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Pipe/NonaPipe.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/Utility/noncopyable.h">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Pipe/ReadPipe.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/apue.h">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Pipe/WritePipe.cpp">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/main.cpp">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/BinarySearch.h">
 			<Option target="APUE"/>
 		</Unit>
-		<Unit filename="/Users/lijingqi/ClionProjects/APUE/CMakeLists.txt">
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/BubbleSort.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/HeapSort.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/InsertSort.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/QuickSort.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/SelectSort.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Tcp/Server.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Tcp/Sock.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Utility/MutexLock.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Utility/noncopyable.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/apue.h">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/main.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
