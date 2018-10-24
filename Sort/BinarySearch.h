@@ -30,7 +30,7 @@ int BinarySearch(vector<int>& data,int elem,int left,int right)
         return -1;
     }
     int i = left;
-    int j = right-1;
+    int j = right;
     int mid = i + (j - i ) / 2;
     if (data[mid] > elem){
         j = mid-1;
@@ -41,6 +41,7 @@ int BinarySearch(vector<int>& data,int elem,int left,int right)
     } else {
         return BinarySearch(data,elem,mid+1,j);
     }
+
 }
 
 #endif //APUE_BINARYSEARCH_H

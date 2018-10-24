@@ -7,54 +7,42 @@
 
 #include <vector>
 using namespace std;
-void AdjustDown(vector<int>& data,int pos)
+void Adjust(vector<int>& data,int root,int len)
 {
-    int len = data.size();
-    int t= data[pos];
-    for (int c = pos*2; c <= len; c*=2) {
 
-        if (data[c] < data[c+1])
-            c++;
-        if (data[c] <= t) break;
-
-        else {
-            data[pos] = data[c];
-            pos = c;
+    int lchild = root * 2 + 1;
+    if (lchild < len)
+    {
+        int flag = lchild;
+        int rchild = lchild+1;
+        if (rchild < len)
+        {
+            if (data[rchild] > data[flag])
+            {
+                flag = rchild;
+            }
         }
-    }
-    data[pos] = t;
-}
-void AdjustUp(vector<int>& data,int elem)
-{
-    data.push_back(elem);
-    int len = data.size();
-    int k = len;
-    int i = len/2;
-    while (i > 9 && elem > data[i]) {
-        data[k] = data[i];
-        k = i;
-        i = k / 2;
-    }
-    data[k] = elem;
-    return;
-
-}
-void BuildMaxHeap(vector<int>& data)
-{
-    int len = data.size();
-    for (int i = len/2; i > len; --i) {
-        AdjustDown(data,i);
+        if (data[root] < data[flag])
+        {
+            swap(data[root],data[flag]);
+            Adjust(data,flag,len);
+        }
     }
 }
 void HeapSort(vector<int>& data)
 {
     int len = data.size();
-    BuildMaxHeap(data);
-    for (int i = len; i >= 1; --i) {
-        swap(data[i],data[1]);
-        AdjustDown(data,1);
+    //从第一个非叶子节点开始到Root，向上调整
+    for (int i = len/2-1; i >= 0; --i){//找到第一个非叶子节点
+        //调整方法:就是构成相应的大顶堆
+        Adjust(data,i,len);
+    }
+
+    for (int j = len-1;j>= 1;--j) //调整好了，进行交换
+    {
+        swap(data[0],data[j]);
+        Adjust(data,0,j);
+        //交换后，重新进行调整
     }
 }
-
-
 #endif //APUE_HEAPSORT_H

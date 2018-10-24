@@ -7,10 +7,11 @@
 
 #include <vector>
 using namespace std;
-int partition(vector<int> data,int left,int right)
+int partition(vector<int>& data,int left,int right)
 {
     int i = left;
     int j = right-1;
+
     int pivot = data[i];
     while(i < j) {
         while( i < j && data[j] >= pivot ) j--;
@@ -23,7 +24,7 @@ int partition(vector<int> data,int left,int right)
 }
 void QuickSort(vector<int>& data,int left,int right)
 {
-    if (left < right) {
+    if (left < right) {//left < right 说明待排序的区间中还有元素
         int i = partition(data,left,right);
         QuickSort(data,left,i);
         QuickSort(data,i+1,right);

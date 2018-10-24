@@ -209,6 +209,9 @@
 		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/InsertSort.h">
 			<Option target="APUE"/>
 		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/MergeSort.h">
+			<Option target="APUE"/>
+		</Unit>
 		<Unit filename="/Users/allen/CLionProjects/APUE/Sort/QuickSort.h">
 			<Option target="APUE"/>
 		</Unit>
