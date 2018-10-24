@@ -525,6 +525,84 @@ CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item9.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.s
 
+CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o: ../EffectiveCPP/item10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item10.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item10.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item10.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.s
+
+CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o: ../EffectiveCPP/item11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item11.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item11.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item11.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.s
+
+CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o: ../EffectiveCPP/item12.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item12.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item12.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item12.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.s
+
+CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o: ../EffectiveCPP/item18.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item18.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item18.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item18.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.s
+
+CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o: ../EffectiveCPP/item20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item20.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item20.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item20.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.s
+
+CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o: CMakeFiles/APUE.dir/flags.make
+CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o: ../EffectiveCPP/item22.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o -c /Users/allen/CLionProjects/APUE/EffectiveCPP/item22.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/allen/CLionProjects/APUE/EffectiveCPP/item22.cpp > CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.i
+
+CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/allen/CLionProjects/APUE/EffectiveCPP/item22.cpp -o CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.s
+
 # Object files for target APUE
 APUE_OBJECTS = \
 "CMakeFiles/APUE.dir/main.cpp.o" \
@@ -562,7 +640,13 @@ APUE_OBJECTS = \
 "CMakeFiles/APUE.dir/EffectiveCPP/item6.cpp.o" \
 "CMakeFiles/APUE.dir/EffectiveCPP/item7.cpp.o" \
 "CMakeFiles/APUE.dir/EffectiveCPP/item8.cpp.o" \
-"CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.o"
+"CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o" \
+"CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o"
 
 # External object files for target APUE
 APUE_EXTERNAL_OBJECTS =
@@ -603,9 +687,15 @@ APUE: CMakeFiles/APUE.dir/EffectiveCPP/item6.cpp.o
 APUE: CMakeFiles/APUE.dir/EffectiveCPP/item7.cpp.o
 APUE: CMakeFiles/APUE.dir/EffectiveCPP/item8.cpp.o
 APUE: CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o
+APUE: CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o
 APUE: CMakeFiles/APUE.dir/build.make
 APUE: CMakeFiles/APUE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable APUE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable APUE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/APUE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

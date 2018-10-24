@@ -17,7 +17,19 @@ CMakeFiles/APUE.dir/FileAPI/Log.c.o: ../FileAPI/Log.c
 
 CMakeFiles/APUE.dir/FileAPI/Read.c.o: ../FileAPI/Read.c
 
+CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o: ../EffectiveCPP/item10.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o: ../EffectiveCPP/item11.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o: ../EffectiveCPP/item12.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o: ../EffectiveCPP/item18.cpp
+
 CMakeFiles/APUE.dir/EffectiveCPP/item2.cpp.o: ../EffectiveCPP/item2.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o: ../EffectiveCPP/item20.cpp
+
+CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o: ../EffectiveCPP/item22.cpp
 
 CMakeFiles/APUE.dir/EffectiveCPP/item5.cpp.o: ../EffectiveCPP/item5.cpp
 

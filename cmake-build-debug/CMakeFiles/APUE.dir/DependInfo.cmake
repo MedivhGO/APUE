@@ -20,7 +20,13 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item10.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o"
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item11.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o"
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item12.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o"
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item18.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o"
   "/Users/allen/CLionProjects/APUE/EffectiveCPP/item2.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item2.cpp.o"
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item20.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o"
+  "/Users/allen/CLionProjects/APUE/EffectiveCPP/item22.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o"
   "/Users/allen/CLionProjects/APUE/EffectiveCPP/item5.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item5.cpp.o"
   "/Users/allen/CLionProjects/APUE/EffectiveCPP/item6.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item6.cpp.o"
   "/Users/allen/CLionProjects/APUE/EffectiveCPP/item7.cpp" "/Users/allen/CLionProjects/APUE/cmake-build-debug/CMakeFiles/APUE.dir/EffectiveCPP/item7.cpp.o"

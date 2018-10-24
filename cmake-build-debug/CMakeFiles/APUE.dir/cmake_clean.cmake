@@ -35,6 +35,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/APUE.dir/EffectiveCPP/item7.cpp.o"
   "CMakeFiles/APUE.dir/EffectiveCPP/item8.cpp.o"
   "CMakeFiles/APUE.dir/EffectiveCPP/item9.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o"
+  "CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o"
   "APUE.pdb"
   "APUE"
 )

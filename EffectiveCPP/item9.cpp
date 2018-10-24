@@ -35,7 +35,7 @@ void Dog::init()
     age = 0;
     cout << "Dog ctor" << endl;
 }
-int main()
+int main1()
 {
     Dog d; //输出 Animal ctor //在base class构造期间，virtual函数不是virtual函数
     //derived class 的成员变量尚未确定，virtual如果在 dervied阶层，充满不确定行为。

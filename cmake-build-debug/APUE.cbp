@@ -80,7 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item10.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item11.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item12.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item18.cpp">
+			<Option target="APUE"/>
+		</Unit>
 		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item2.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item20.cpp">
+			<Option target="APUE"/>
+		</Unit>
+		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item22.cpp">
 			<Option target="APUE"/>
 		</Unit>
 		<Unit filename="/Users/allen/CLionProjects/APUE/EffectiveCPP/item5.cpp">

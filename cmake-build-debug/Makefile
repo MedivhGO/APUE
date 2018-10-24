@@ -123,6 +123,114 @@ APUE/fast:
 	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/build
 .PHONY : APUE/fast
 
+EffectiveCPP/item10.o: EffectiveCPP/item10.cpp.o
+
+.PHONY : EffectiveCPP/item10.o
+
+# target to build an object file
+EffectiveCPP/item10.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.o
+.PHONY : EffectiveCPP/item10.cpp.o
+
+EffectiveCPP/item10.i: EffectiveCPP/item10.cpp.i
+
+.PHONY : EffectiveCPP/item10.i
+
+# target to preprocess a source file
+EffectiveCPP/item10.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.i
+.PHONY : EffectiveCPP/item10.cpp.i
+
+EffectiveCPP/item10.s: EffectiveCPP/item10.cpp.s
+
+.PHONY : EffectiveCPP/item10.s
+
+# target to generate assembly for a file
+EffectiveCPP/item10.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item10.cpp.s
+.PHONY : EffectiveCPP/item10.cpp.s
+
+EffectiveCPP/item11.o: EffectiveCPP/item11.cpp.o
+
+.PHONY : EffectiveCPP/item11.o
+
+# target to build an object file
+EffectiveCPP/item11.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.o
+.PHONY : EffectiveCPP/item11.cpp.o
+
+EffectiveCPP/item11.i: EffectiveCPP/item11.cpp.i
+
+.PHONY : EffectiveCPP/item11.i
+
+# target to preprocess a source file
+EffectiveCPP/item11.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.i
+.PHONY : EffectiveCPP/item11.cpp.i
+
+EffectiveCPP/item11.s: EffectiveCPP/item11.cpp.s
+
+.PHONY : EffectiveCPP/item11.s
+
+# target to generate assembly for a file
+EffectiveCPP/item11.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item11.cpp.s
+.PHONY : EffectiveCPP/item11.cpp.s
+
+EffectiveCPP/item12.o: EffectiveCPP/item12.cpp.o
+
+.PHONY : EffectiveCPP/item12.o
+
+# target to build an object file
+EffectiveCPP/item12.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.o
+.PHONY : EffectiveCPP/item12.cpp.o
+
+EffectiveCPP/item12.i: EffectiveCPP/item12.cpp.i
+
+.PHONY : EffectiveCPP/item12.i
+
+# target to preprocess a source file
+EffectiveCPP/item12.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.i
+.PHONY : EffectiveCPP/item12.cpp.i
+
+EffectiveCPP/item12.s: EffectiveCPP/item12.cpp.s
+
+.PHONY : EffectiveCPP/item12.s
+
+# target to generate assembly for a file
+EffectiveCPP/item12.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item12.cpp.s
+.PHONY : EffectiveCPP/item12.cpp.s
+
+EffectiveCPP/item18.o: EffectiveCPP/item18.cpp.o
+
+.PHONY : EffectiveCPP/item18.o
+
+# target to build an object file
+EffectiveCPP/item18.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.o
+.PHONY : EffectiveCPP/item18.cpp.o
+
+EffectiveCPP/item18.i: EffectiveCPP/item18.cpp.i
+
+.PHONY : EffectiveCPP/item18.i
+
+# target to preprocess a source file
+EffectiveCPP/item18.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.i
+.PHONY : EffectiveCPP/item18.cpp.i
+
+EffectiveCPP/item18.s: EffectiveCPP/item18.cpp.s
+
+.PHONY : EffectiveCPP/item18.s
+
+# target to generate assembly for a file
+EffectiveCPP/item18.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item18.cpp.s
+.PHONY : EffectiveCPP/item18.cpp.s
+
 EffectiveCPP/item2.o: EffectiveCPP/item2.cpp.o
 
 .PHONY : EffectiveCPP/item2.o
@@ -149,6 +257,60 @@ EffectiveCPP/item2.s: EffectiveCPP/item2.cpp.s
 EffectiveCPP/item2.cpp.s:
 	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item2.cpp.s
 .PHONY : EffectiveCPP/item2.cpp.s
+
+EffectiveCPP/item20.o: EffectiveCPP/item20.cpp.o
+
+.PHONY : EffectiveCPP/item20.o
+
+# target to build an object file
+EffectiveCPP/item20.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.o
+.PHONY : EffectiveCPP/item20.cpp.o
+
+EffectiveCPP/item20.i: EffectiveCPP/item20.cpp.i
+
+.PHONY : EffectiveCPP/item20.i
+
+# target to preprocess a source file
+EffectiveCPP/item20.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.i
+.PHONY : EffectiveCPP/item20.cpp.i
+
+EffectiveCPP/item20.s: EffectiveCPP/item20.cpp.s
+
+.PHONY : EffectiveCPP/item20.s
+
+# target to generate assembly for a file
+EffectiveCPP/item20.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item20.cpp.s
+.PHONY : EffectiveCPP/item20.cpp.s
+
+EffectiveCPP/item22.o: EffectiveCPP/item22.cpp.o
+
+.PHONY : EffectiveCPP/item22.o
+
+# target to build an object file
+EffectiveCPP/item22.cpp.o:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.o
+.PHONY : EffectiveCPP/item22.cpp.o
+
+EffectiveCPP/item22.i: EffectiveCPP/item22.cpp.i
+
+.PHONY : EffectiveCPP/item22.i
+
+# target to preprocess a source file
+EffectiveCPP/item22.cpp.i:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.i
+.PHONY : EffectiveCPP/item22.cpp.i
+
+EffectiveCPP/item22.s: EffectiveCPP/item22.cpp.s
+
+.PHONY : EffectiveCPP/item22.s
+
+# target to generate assembly for a file
+EffectiveCPP/item22.cpp.s:
+	$(MAKE) -f CMakeFiles/APUE.dir/build.make CMakeFiles/APUE.dir/EffectiveCPP/item22.cpp.s
+.PHONY : EffectiveCPP/item22.cpp.s
 
 EffectiveCPP/item5.o: EffectiveCPP/item5.cpp.o
 
@@ -1104,9 +1266,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... APUE"
+	@echo "... EffectiveCPP/item10.o"
+	@echo "... EffectiveCPP/item10.i"
+	@echo "... EffectiveCPP/item10.s"
+	@echo "... EffectiveCPP/item11.o"
+	@echo "... EffectiveCPP/item11.i"
+	@echo "... EffectiveCPP/item11.s"
+	@echo "... EffectiveCPP/item12.o"
+	@echo "... EffectiveCPP/item12.i"
+	@echo "... EffectiveCPP/item12.s"
+	@echo "... EffectiveCPP/item18.o"
+	@echo "... EffectiveCPP/item18.i"
+	@echo "... EffectiveCPP/item18.s"
 	@echo "... EffectiveCPP/item2.o"
 	@echo "... EffectiveCPP/item2.i"
 	@echo "... EffectiveCPP/item2.s"
+	@echo "... EffectiveCPP/item20.o"
+	@echo "... EffectiveCPP/item20.i"
+	@echo "... EffectiveCPP/item20.s"
+	@echo "... EffectiveCPP/item22.o"
+	@echo "... EffectiveCPP/item22.i"
+	@echo "... EffectiveCPP/item22.s"
 	@echo "... EffectiveCPP/item5.o"
 	@echo "... EffectiveCPP/item5.i"
 	@echo "... EffectiveCPP/item5.s"

@@ -6,8 +6,9 @@
 #include "Sort/HeapSort.h"
 #include "Sort/BinarySearch.h"
 using namespace std;
-int main1()
+int main()
 {
     vector<int> data = {4,3,2,1,8,9};
     cout << BinarySearch(data,3) ;
+    return 0;
 }
