@@ -83,11 +83,6 @@ CMakeFiles/APUE.dir/Tcp/Server.cpp.o: ../Tcp/Server.cpp
 
 CMakeFiles/APUE.dir/Tcp/Sock.cpp.o: ../Tcp/Sock.cpp
 
-CMakeFiles/APUE.dir/main.cpp.o: ../Sort/BinarySearch.h
-CMakeFiles/APUE.dir/main.cpp.o: ../Sort/BubbleSort.h
 CMakeFiles/APUE.dir/main.cpp.o: ../Sort/HeapSort.h
-CMakeFiles/APUE.dir/main.cpp.o: ../Sort/InsertSort.h
-CMakeFiles/APUE.dir/main.cpp.o: ../Sort/QuickSort.h
-CMakeFiles/APUE.dir/main.cpp.o: ../Sort/SelectSort.h
 CMakeFiles/APUE.dir/main.cpp.o: ../main.cpp
 

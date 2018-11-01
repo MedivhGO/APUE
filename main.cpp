@@ -9,5 +9,12 @@ int main()
     {
         cout << x  << " " ;
     }
+    cout << endl;
+    data.push_back(23232);
+    HeapSort(data);
+    for (auto x : data)
+    {
+        cout << x << " ";
+    }
     return 0;
 }

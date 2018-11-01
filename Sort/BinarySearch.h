@@ -26,13 +26,13 @@ int BinarySearch(vector<int>& data,int elem)
 }
 int BinarySearch(vector<int>& data,int elem,int left,int right)
 {
-    if (left > right) {
-        return -1;
-    }
-    int i = left;
-    int j = right;
-    int mid = i + (j - i ) / 2;
-    if (data[mid] > elem){
+        if (left > right) {
+            return -1;
+        }
+        int i = left;
+        int j = right;
+        int mid = i + (j - i ) / 2;
+        if (data[mid] > elem){
         j = mid-1;
         return BinarySearch(data,elem,i,j);
     }

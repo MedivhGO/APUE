@@ -29,6 +29,26 @@ void Adjust(vector<int>& data,int root,int len)
         }
     }
 }
+int getParent(int i)
+{
+    if (i == 0) return -1;
+    if (i % 2 == 0) return i/2-1;
+    else return i / 2;
+}
+void AdjustDonwToUp(vector<int>& data){ //插入一个元素，对堆进行调整
+    int len = data.size();
+    int child = len-1;
+    int par = getParent(child);
+    while (par >= 0) {
+        if (data[par] >= data[child]) break;
+        else {
+            swap(data[par],data[child]);
+            child = par;
+            par = getParent(child);
+        }
+    }
+    return ;
+}
 void HeapSort(vector<int>& data)
 {
     int len = data.size();
