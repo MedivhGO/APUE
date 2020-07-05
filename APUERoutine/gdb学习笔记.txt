@@ -1,0 +1,39 @@
+gdb(gnu debugger)
+
+gcc -g hello.c -o hello
+
+rpm -ivh gdb... .rpm 安装GDB
+
+
+cd ~目录
+.bashrc 文件中添加
+ulimit -c unlimited
+修改完成之后 . .bashrc生效
+
+gdb core文件  -q（ignorce the copyright information） 文件名
+
+在GDB中启动调试程序
+gdb  程序名
+run命令 开始执行程序
+where 提示错误位置
+list [m,n]显示指定行数的代码 默认显示10行
+print   变量名 （显示变量的值）
+break linenum 设置断点
+	  funcname
+	  filename：
+	  filename：linenum
+	  filename：funcname 
+continue 命令从断点以后继续执行
+delete 删除一个断点
+可以设置多个断点 使用info break 查看断点
+
+运行时动态的改变value的值
+set variable varname = value
+单步调试
+step 当遇到一个函数的时候 将进入函数每次执行一条语句
+next 当遇到一个函数的时候 的时候将执行整个函数 相当于step over
+return 让函数提前返回
+
+（按enter可以执行上一次执行的命令）
+
+help all 显示指令 

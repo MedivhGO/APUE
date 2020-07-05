@@ -1,0 +1,26 @@
+结束进程5个原因
+return
+exit函数
+_exit()
+abort()
+被一个信号终止
+
+前三个正常终止 后两个非正常终止
+
+int exit(int status)函数
+exit 导致程序正常终止，并且返回给父进程的状态(status)
+无论进程为何终止，最后都执行相同的内核代码，关闭打开的文件，释放内存资源，和其他清理
+工作。
+void abort(void)
+导致程序异常终止
+abort还可以让程序产生core
+最后要手段来使用
+很严重的内存错误才使用
+
+kill函数
+#include <signal.h>
+#include <sys/types.h>
+int kill(pid_t pid)
+kill函数用来杀死另一个进程
+参数pid指定一个要杀死的进程，而sig是要发送的信号，本章内容是杀死
+一个进程，所以只需要关注SIGKILL 一个信号。

@@ -1,0 +1,4 @@
+configuratioManager类用来操作配置文件
+其中configurationManager.ConnectionStrings是调用配置文件中的ConnectionStrings段；
+由于可以添加多个add项，["连接字符串名"]用来说明所添加的连接字符串项名称
+configurationManager.ConnectionStrings["ConnectionString"].ConnectionString指，调用该项中的connectionstring属性，即获取连接字符串

@@ -1,0 +1,35 @@
+gcc  -o hello1.c -E hello.c 
+-o 输出到文件hello1.c
+-E 预编译文件 hello.c
+
+gcc -o hello.o -c hello.c
+编译后生成.o文件（机器指令文件）
+-c 只编译不链接
+
+gcc -o hello hello.o（一般在这个步骤进行干预）
+进行链接
+
+
+常用编译选项
+-g 包含调试信息
+-l 链接指定的库文件
+-O 优化编译后的代码
+-O0 
+-O1 
+-O2 
+-O3 
+编译器的优化选项的4个级别，-O0表示没有优化,-O1为缺省值，-O3优化级别最高　　 
+-S 汇编 生成 .s 汇编文件
+
+gcc默认只链接c的库 并不链接c++的库
+gcc -lstdc++ -l -l（等等库） -o hello hello.cpp
+
+nm 命令查看目标文件，可执行文件的标号
+
+c++会把编译后的函数名字改变！！！
+
+ldd 查看可执行文件所链接到的库
+
+安装g++ 和g++库
+rpm -ivh libstdc++-devel-4.4.6-4.e..x86_64.rpm
+rpm -ivh gcc-c++-4.....x86_64.rpm
