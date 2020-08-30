@@ -1,0 +1,18 @@
+堆和栈
+
+函数在调用过程中参数是如何入栈的
+
+__stdcall(standard calling)  [VS默认的方式]
+	是pascal默认调用函数方式
+	参数是从右向左压入栈
+	函数参数由被调用者压入或弹出栈
+__cdecl(c default calling)
+	是c/c++默认调用函数的方式
+	参数是从右向左压入栈
+	函数参数由被调用者压入或弹出栈
+	
+int __attribute__((stdcall))  abc(int a,int b);
+int __attribute__ ((cdecl)) abc(int a,int b);
+
+heap 一种动态的结构 
+new 或 malloc（内存从哪里开始从哪里结束都有结构进行记录） 申请

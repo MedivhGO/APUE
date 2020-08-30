@@ -1,0 +1,54 @@
+Linux 文件的概念
+文件描述符
+文件描述符是一个很小的正整数
+他是一个索引值
+指向内核为每一个进程所维护的该进程的打开文件的记录表
+打开3个文件
+stdin 标准输入文件 0
+stdout标准输出 1
+stderr标准出错 2   特定位置，如果存在就不能被占用
+
+write（STDOUT_FILENO,buff,strlen(buff);
+read(STDIN_FILENO,buff,sizeof(buff))  //代替scanf（）
+scanf（）函数对超出尺寸的范围继续写，可能会覆盖到内存后面的内容
+
+打开文件和关闭文件描述符
+open(filename,flags)成功返回一个文件描述符失败返回-1，设置errno的变量<errno.h>头文件中
+在string.h中有一个函数叫做 strerror(errno)显示错误的名称
+
+
+man 3(c库函数) printf 查看c标准库的库函数
+man 2(系统调用) read()
+man 5(第三方库函数) pthread_create()
+
+close(fd)关闭文件描述符是fd的文件
+close(STDIN_FILENO)
+close(STDOUT_FILENO)
+
+ssize_t read(int fd,void *buf,size_t count);
+ssize_t write（int fd,void *bug,size_t count); 
+read 用于从文件描述符对应的文件读取数据，调用成功返回读取的字节数
+fd必须是open调用返回的有效文件描述符
+buf为读出数据的缓冲区，count指定读出的字节数
+成功返回读取的字节数，如果遇到EOF，返回0，出错返回-1
+
+int fstat(int fd,struct stat *buf)
+参数fd必须是用open调用返回的有效文件描述符
+使用stat获取文件信息
+int stat(const char *path,struct stat *buf);
+path是路径加文件名的字符串
+struct stat{
+	dev_t st_dev; //ID of device containing file
+	ino_t st_ino;	//inode number
+	.....
+}
+char *getpass(const char *prompt);
+getpass 用于从键盘读取用户输入，但屏幕不回显
+prompt为屏幕提示字符
+函数返回值为用户键盘输入的字符串
+
+
+
+
+
+ 
