@@ -8,8 +8,8 @@
 0.03s user 1.93s system 35% cpu 5.513 total 128kb
 0.02s user 1.84s system 32% cpu 5.793 total 256kb
 0.01s user 1.80s system 39% cpu 4.543 total 512kb
-0.01s user 1.79s system 56% cpu 3.201 total 1GB
-0.01s user 2.06s system 61% cpu 3.363 total 2GB
-0.00s user 2.24s system 29% cpu 7.552 total 4GB
-bug 8GB
+0.01s user 1.79s system 56% cpu 3.201 total 1MB
+0.01s user 2.06s system 61% cpu 3.363 total 2MB
+0.00s user 2.24s system 29% cpu 7.552 total 4MB
+bug 8MB
 

@@ -23,14 +23,6 @@ int main()
         perror("fdbefore");
         exit(1);
     }
-   after =  lseek(fdafter,10,SEEK_SET);
-   before = lseek(fdbefore,11,SEEK_SET);
-
-
-
-
-
-
-
-
+    after =  lseek(fdafter,10,SEEK_SET);
+    before = lseek(fdbefore,11,SEEK_SET);
 }
