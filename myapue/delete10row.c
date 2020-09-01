@@ -31,40 +31,34 @@ int main()
     }
     char c;
     int linecount = 0;
-//    read(fdafter, &c, 1);
-//    printf("%c\n",c);
-//    read(fdbefore,&c,1);
-//    printf("%c\n",c);
+
     while (1) {
         read(fdafter,&c,1);
         read(fdbefore,&c,1);
         if (c == '\n') {
             linecount++;
-            printf("%d",linecount);
+            //printf("%d",linecount);
         }
         if (linecount==10)
             break;
-//        if (c=='\n')
-//            linecount++;
-//        if (linecount == 10)
-//            break;
-//        printf("%d",linecount);
-}
-//    size_t linelen = 0;
-//    int werr;
-//    while (read(fdafter,&c,1) > 0) {
-//        buffer[linelen++] = c;
-//        if (c == '\n'){
-//            werr = write(fdbefore,buffer,linelen);
-//            if (werr < 0 ) {
-//                close(fdafter);
-//                perror("write file error");
-//                exit(1);
-//            }
-//            memset(buffer,0,linelen);
-//            linelen = 0;
-//        }
-//    }
+    }
+    
+    size_t linelen = 0;
+    int werr;
+    while (read(fdafter,&c,1) > 0) {
+        buffer[linelen++] = c;
+        if (c == '\n'){
+            werr = write(fdbefore,buffer,linelen);
+            if (werr < 0 ) {
+                close(fdafter);
+                perror("write file error");
+                exit(1);
+            }
+            printf("%d\n",werr);
+          //  memset(buffer,0,linelen);
+            linelen = 0;
+        }
+    }
     close(fdbefore);
     close(fdafter);
     printf("delete 10 row done");
