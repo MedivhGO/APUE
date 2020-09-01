@@ -12,10 +12,8 @@ int main()
 {
     int fdbefore = -1;
     int fdafter = -1;
-
     char buffer[BUFFSIZE];
     off_t after,before;
-
     fdafter= open("sourcedata",O_RDONLY);
     if (fdafter < 0)
     {
@@ -29,39 +27,49 @@ int main()
         perror("fdbefore");
         exit(1);
     }
-    char c;
-    int linecount = 0;
-
+    char cafter;
+    char cbefore;
+    int afterlinecount = 0;
+    int beforelinecount = 0;
     while (1) {
-        read(fdafter,&c,1);
-        read(fdbefore,&c,1);
-        if (c == '\n') {
-            linecount++;
-            //printf("%d",linecount);
+        read(fdafter,&cafter,1);
+        printf("%c",cafter);
+        if (cafter == '\n') {
+            afterlinecount++;
         }
-        if (linecount==10)
+        if (afterlinecount==9)
             break;
     }
-    
-    size_t linelen = 0;
-    int werr;
-    while (read(fdafter,&c,1) > 0) {
-        buffer[linelen++] = c;
-        if (c == '\n'){
-            werr = write(fdbefore,buffer,linelen);
-            if (werr < 0 ) {
-                close(fdafter);
-                perror("write file error");
-                exit(1);
-            }
-            printf("%d\n",werr);
-          //  memset(buffer,0,linelen);
-            linelen = 0;
+    //确认befor被定位到第10行
+    off_t afteroffset = lseek(fdafter,0,SEEK_CUR);
+    lseek(fdbefore,afteroffset,SEEK_SET);
+    //after在向后走一行
+    int thislinelen = 0;
+     while (1) {
+        read(fdafter,&cafter,1);
+        buffer[thislinelen++] = cafter;
+        printf("%c",cafter);
+        if (cafter == '\n') {
+           break;
+        }
+    }
+    printf("%d\n",thislinelen);
+    off_t beforeoffset = lseek(fdbefore,0,SEEK_CUR);
+    afteroffset = lseek(fdafter,0,SEEK_CUR);
+    printf("before %ld ------ after %ld",beforeoffset,afteroffset);
+    int cur = 0;
+    int res;
+    while (1) {
+        res = read(fdafter,&cafter,1);
+        buffer[cur++] = cafter;
+        if (cafter == '\n') {
+            write(fdbefore,buffer,cur-1);
+            cur = 0;
+        } else if (res < 0) {
+            break;
         }
     }
     close(fdbefore);
     close(fdafter);
-    printf("delete 10 row done");
     return 0;
-
 }
