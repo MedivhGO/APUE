@@ -1,13 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <string.h>
+
+#define BUFFSIZE 1024
 
 int main()
 {
     int fdbefore = -1;
     int fdafter = -1;
 
-
+    char buffer[BUFFSIZE];
     off_t after,before;
 
     fdafter= open("sourcedata",O_RDONLY);
@@ -23,6 +29,45 @@ int main()
         perror("fdbefore");
         exit(1);
     }
-    after =  lseek(fdafter,10,SEEK_SET);
-    before = lseek(fdbefore,11,SEEK_SET);
+    char c;
+    int linecount = 0;
+//    read(fdafter, &c, 1);
+//    printf("%c\n",c);
+//    read(fdbefore,&c,1);
+//    printf("%c\n",c);
+    while (1) {
+        read(fdafter,&c,1);
+        read(fdbefore,&c,1);
+        if (c == '\n') {
+            linecount++;
+            printf("%d",linecount);
+        }
+        if (linecount==10)
+            break;
+//        if (c=='\n')
+//            linecount++;
+//        if (linecount == 10)
+//            break;
+//        printf("%d",linecount);
+}
+//    size_t linelen = 0;
+//    int werr;
+//    while (read(fdafter,&c,1) > 0) {
+//        buffer[linelen++] = c;
+//        if (c == '\n'){
+//            werr = write(fdbefore,buffer,linelen);
+//            if (werr < 0 ) {
+//                close(fdafter);
+//                perror("write file error");
+//                exit(1);
+//            }
+//            memset(buffer,0,linelen);
+//            linelen = 0;
+//        }
+//    }
+    close(fdbefore);
+    close(fdafter);
+    printf("delete 10 row done");
+    return 0;
+
 }
