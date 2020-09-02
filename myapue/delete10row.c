@@ -20,7 +20,7 @@ int main()
         perror("fdafter()");
         exit(1);
     }
-    fdbefore=open("sourcedata",O_WRONLY);
+    fdbefore=open("sourcedata",O_RDWR);
     if (fdbefore < 0)
     {
         close(fdafter);
@@ -48,27 +48,30 @@ int main()
      while (1) {
         read(fdafter,&cafter,1);
         buffer[thislinelen++] = cafter;
-        printf("%c",cafter);
         if (cafter == '\n') {
            break;
         }
     }
-    printf("%d\n",thislinelen);
+    //显示当前的位置
     off_t beforeoffset = lseek(fdbefore,0,SEEK_CUR);
     afteroffset = lseek(fdafter,0,SEEK_CUR);
-    printf("before %ld ------ after %ld",beforeoffset,afteroffset);
+    printf("before %lld ------ after %lld\n",beforeoffset,afteroffset);
+    /*******/
+    //写入文件中
+    //TODO:
     int cur = 0;
-    int res;
-    while (1) {
-        res = read(fdafter,&cafter,1);
+    while (read(fdafter,&cafter,1) > 0) {
         buffer[cur++] = cafter;
         if (cafter == '\n') {
-            write(fdbefore,buffer,cur-1);
+            //buffer[cur] = '\0';
+            fprintf(stdout,"%s\n",buffer);
+            write(fdbefore,buffer,cur);
             cur = 0;
-        } else if (res < 0) {
-            break;
         }
     }
+    
+    
+    //关闭文件
     close(fdbefore);
     close(fdafter);
     return 0;
