@@ -87,3 +87,18 @@
 
 3. 进程环境
 
+2. 系统数据文件和信息
+
+    1. /etc/passwd
+        getpwuid()
+        getpwnam() 
+        //返回用户的详细信息struct passwd 
+
+
+    2. /etc/group
+
+    3. /etc/shadow
+
+    4. 时间戳
+
+    5. 
