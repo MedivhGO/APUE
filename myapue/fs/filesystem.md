@@ -130,6 +130,18 @@
         
 
 
-    4. 时间戳
+    4. 时间戳: time_t char*  struct tm
 
-    5. 
+        time();
+        gmtime();
+        mktime();
+
+        strftime() 格式化字符串
+
+
+        1970-1-1:00:00:00 以秒为单位至今的秒数
+
+
+
+
+    
