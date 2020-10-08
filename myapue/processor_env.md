@@ -42,6 +42,20 @@
 
 4. 环境变量
 
+		KEY = VALUE
+
+		export查看环境变量
+		
+		PATH shell的外部命令路径
+
+		char** environ 
+
+		getenv();
+		setenv();
+		putenv();
+		
+
+
 5. C程序的存储空间布局
 
 6. 库
