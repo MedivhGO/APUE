@@ -104,8 +104,14 @@
 
 7. 函数跳转
 
+		//安全跳转
 
+		setjmp() //设置跳转点
 
-
+		longjmp() //跳转
 
 8. 资源的获取及控制
+
+		getrlimit();
+
+		setrlimit();
