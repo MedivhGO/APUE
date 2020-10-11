@@ -27,6 +27,7 @@ int main()
             }
             if (mark)
                 printf("%d is a primer\n",i);
+            sleep(1000); //等待父进程结束
             exit(0);
         }
     }
