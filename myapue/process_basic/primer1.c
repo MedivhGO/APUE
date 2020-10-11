@@ -27,9 +27,10 @@ int main()
             }
             if (mark)
                 printf("%d is a primer\n",i);
-            sleep(1000); //等待父进程结束
+           // sleep(1000); //等待父进程结束 会产生孤儿进程
             exit(0);
         }
     }
+    sleep(1000); //子进程结束 没有收回子进程资源,会产生僵尸进程
     exit(0);
 }
