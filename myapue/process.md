@@ -44,9 +44,12 @@
 
 3. 进程消亡及释放资源
 
-    wait();
+    wait(); //wait for process to change state
+        不能确定回收的是哪个进程的资源,需要进一步确认.
 
-    waitpid();
+        会一直死等 会阻塞
+
+    waitpid(pid_t pid, int *status,int options); //使用option可以将wait由阻塞变成非阻塞.
 
     waitid();
 
