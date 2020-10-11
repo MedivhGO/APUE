@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
-int Write(int arg,char *args[])
+int writedemo(int arg,char *args[])
 {
 	int fd = open(args[1],O_RDWR|O_APPEND);
 	if(fd == -1)

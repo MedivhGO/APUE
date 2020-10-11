@@ -5,7 +5,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <sys/fcntl.h>
-int WritePipe()
+int writepipedemo()
 {
     int len = 0;
     char buf[100];

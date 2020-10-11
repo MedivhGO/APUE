@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-int Rename(int arg,char *args[])
+int removedemo(int arg,char *args[])
 {
-	if(arg >= 2)
-		rename(args[1],args[2]);
+	if(arg > 1)
+		remove(args[1]);
 	return 0;
 
 }

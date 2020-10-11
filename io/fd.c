@@ -8,8 +8,8 @@
 #include <errno.h>
 int main()
 {
-    	char s[]="abc.txt";
-	int i = 0;
+    char s[]="abc.txt";
+	int i = 1;
 	close(STDOUT_FILENO);
 	int fd1 = open("/dev/pts/1",O_WRONLY);//can be read and writed
 	int fd = open(s,O_RDONLY); //only be read
@@ -17,11 +17,12 @@ int main()
 		printf("%s\n",strerror(errno));
 	}
 	else{
-	  	while(1){
-			printf("fd1 = %d,fd = %d:%d\n",fd1,fd2,n);
+	  	while(i--){
+			printf("fd1 = %d,fd = %d:%d\n",fd1,fd);
 			sleep(1);
 		}
 		close(fd);
+		close(fd1);
 	}
 	return EXIT_SUCCESS;
 }

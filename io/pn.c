@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <pwd.h>
-int Pn()
+int pndemo()
 {
 	char *login = getlogin();
 	struct passwd *ps = getpwnam(login);

@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-int GetCwd()
+int getcwddemo()
 {
     char buf[100];
     memset(buf,0,sizeof(buf));

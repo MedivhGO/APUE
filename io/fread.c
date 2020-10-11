@@ -10,7 +10,7 @@ struct abc{
     char name[5];
     int i;
 };
-int Fread(int arg,char *args[]){
+int freaddemo(int arg,char *args[]){
 
     FILE *p = fopen(args[1],"r+");
     if(p == NULL)

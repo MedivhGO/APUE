@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <fcntl.h>
-int Read(int arg,char *args[])
+int readdemo(int arg,char *args[])
 {
 	if(arg < 2)
 		return 0;

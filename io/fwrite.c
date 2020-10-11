@@ -9,7 +9,7 @@ struct min{
     int c;
     int d;
 };
-int Fwrite(int arg,char *args[])
+int fwritedemo(int arg,char *args[])
 {
     FILE *p = fopen(args[1],"w");
     if(p == NULL)

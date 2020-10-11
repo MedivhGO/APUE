@@ -37,7 +37,7 @@ void writelog(const char *log)
 	}
 	return ;
 }
-int Log(int arg,char *args[])
+int logdemo(int arg,char *args[])
 {
 	writelog("proccess begin");
 	printf("hello world\n");

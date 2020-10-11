@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <errno.h>
-int Fprintf(int arg,char *args[])
+int fprintfdemo(int arg,char *args[])
 {
 	FILE *p = fopen(args[1],"w");
 	if(p == NULL)

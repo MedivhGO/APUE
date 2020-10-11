@@ -3,7 +3,7 @@
 #include <string.h>
 #include <errno.h>
 #include <unistd.h>
-int Fscanf(int arg,char *args[])
+int fscanfdemo(int arg,char *args[])
 {
 	FILE *p = fopen(args[1],"r");
 	if(p == NULL)

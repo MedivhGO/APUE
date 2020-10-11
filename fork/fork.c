@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <pwd.h>
-int Fork()
+int forkdemo()
 {
     printf("begin\n");
     pid_t child = fork(); //all p begin at this

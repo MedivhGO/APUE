@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-int NonaPipe(int arg,char *args[])
+int nonapipedemo(int arg,char *args[])
 {
     int fd[2];
     char buf[100];
