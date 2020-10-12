@@ -3,7 +3,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <pwd.h>
-int sysdemo()
+int main()
 {
     printf("%d\n",system("ls"));
     return EXIT_SUCCESS;

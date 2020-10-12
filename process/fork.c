@@ -3,27 +3,19 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <pwd.h>
-int forkdemo()
+int main()
 {
     printf("begin\n");
-    pid_t child = fork(); //all p begin at this
+    pid_t child = fork(); //all p begin at this 子进程的缓冲区中仍存在"begin\n"
     if(child == -1){  //don't have enough mem will return -1
         printf("call fork error\n");
         return -1;
     }
-    if(child == 0){ //zai zi jin cheng zhong
+    if(child == 0){ //child
         printf("is child\n");
-        //	for(;;){
-        //		sleep(1);
-        //		printf("child pid = %d\n",getpid());
-        //	}
     }
-    else{
+    else{ //parent
         printf("is parent child pid is %d\n",child);
-        //	for(;;){
-        //		sleep(1);
-        //		printf("parent pid = %d\n",getpid());
-        //	}
     }
     printf("end\n");
     return 0;
