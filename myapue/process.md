@@ -75,6 +75,39 @@
 
 5. 用户权限和组权限
 
+    u+s 是怎么实现的
+
+        uid 存了三个值 r(real) , e(effective), s(save) (可能不存在)
+
+        root的uid为0
+
+        passwd fork之后 e和s的值置0
+
+
+    getuid()
+
+    geteuid()
+
+    getgid()
+
+    getegid()
+
+    setuid() //sets the effective user id
+
+    setgid()
+
+    setreuid() //原子操作
+
+    setregid() //原子操作
+
+    seteuid()
+
+    setegid()
+
+
+
+    g+s 是怎么实现的
+
 6. 观摩课: 解释器文件
 
 7. system()
