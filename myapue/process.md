@@ -105,6 +105,16 @@
     setegid()
 
 
+    init 进程 root用户权限
+
+        fork + exec  (getty进程:请求name:)
+                     exec (login: 输入password ) root
+
+                     成功的话 fork + exec 执行shell,shell程序的身份.
+
+
+
+
 
     g+s 是怎么实现的
 
