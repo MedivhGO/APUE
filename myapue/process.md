@@ -113,12 +113,18 @@
                      成功的话 fork + exec 执行shell,shell程序的身份.
 
 
+    mysu chown root mysu
+         chmod u+s mysu
 
 
 
     g+s 是怎么实现的
 
 6. 观摩课: 解释器文件
+
+     
+
+
 
 7. system()
 
