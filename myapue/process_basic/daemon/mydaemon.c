@@ -21,6 +21,8 @@ static void daemonize()
         exit(0);
     }
 
+
+
     setsid();
 
 }
