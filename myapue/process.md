@@ -122,16 +122,53 @@
 
 6. 观摩课: 解释器文件
 
-     
-
-
+    只讲机制,不讲策略
 
 7. system()
 
+    执行一个shell命令
+    fork exec wait的封装
+
 8. 进程会计
+
+    acct() 不可移植
 
 9. 进程时间
 
+    times();
+
 10. 守护进程
+
+        1. 脱离终端
+
+        2. 会话的leader
+
+        3. group的leader
+
+
+        // 会话(终端)ctrl+alt+f1~f7(虚拟终端)
+
+        //session的标识sid
+        setsid()实现守护进程(不能是父进程调用),调用方会成为当前进程组的leader,并脱离当前终端. 守护进程的ppid值为1 (pid pgid sid)三个值相同
+
+        //一个shell(session)中有很多进程组.
+
+        //前台进程组(最多只能有一个),后台进程组.
+
+
+        getpgrp();
+
+        getpgrp(psid_t pid); //看指定进程的组id
+
+
+        getpgid();
+        setpgid(pid_t pid,pid_t pgid); 指定一个进程到指定组
+
+
+
+
+
+
+
 
 11. 系统日志
