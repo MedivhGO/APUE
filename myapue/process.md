@@ -171,5 +171,5 @@
         <syslog.h>
 
         openlog();
-        syslog(int priority,const char *format,...);//类似printf priority有具体的级别  error及以上级别就不能执行
+        syslog(int priority,const char *format,...);//类似printf priority有具体的级别  error及以上级别就不能执行,大于等于LOG_INFO的才会写到系统的/var/log/message下
         closelog();

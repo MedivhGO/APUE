@@ -5,6 +5,8 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <syslog.h>
+#include <errno.h>
 
 #define FNAME "/tmp/out"
 
@@ -16,7 +18,6 @@ static int daemonize()
 
     if (pid < 0)
     {
-        perror("fork error");
         return -1;
     }
 
@@ -29,7 +30,6 @@ static int daemonize()
 
     if (fd < 0)
     {
-        perror("open()");
         return -1;
     }
 
@@ -61,27 +61,33 @@ int main()
     daemonize();
     if (daemonize())
     {
+        syslog(LOG_ERR, "daemonize() failed!");
         exit(1);
     }
-
+    else
+    {
+        syslog(LOG_INFO, "daemonize() successed!"); //syslogd自己会处理格式
+    }
 
     fp = fopen(FNAME, "w");
 
     if (fp == NULL)
     {
-        perror("fopen()");
+        syslog(LOG_ERR,"fopen:%s",strerror(errno));
         exit(1);
     }
+
+    syslog(LOG_INFO,"%s was opened.",FNAME);
 
     for (i = 0;; i++)
     {
         fprintf(fp, "%d\n", i);
         fflush(fp);
+        syslog(LOG_DEBUG,"%d is printed.",i);
         sleep(1);
     }
 
     fclose(fp);
     closelog();
     exit(0);
-
 }
