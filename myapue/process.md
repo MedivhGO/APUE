@@ -164,6 +164,10 @@
         getpgid();
         setpgid(pid_t pid,pid_t pgid); 指定一个进程到指定组
 
+        单实例的守护进程:   锁文件 一般存在/var/run/name.pid 这样一个名字 开启一个守护进程,会把当前的pid写入到文件当中.
+
+        启动脚本文件: /etc/rc/
+
 11. 系统日志
 
         syslog
