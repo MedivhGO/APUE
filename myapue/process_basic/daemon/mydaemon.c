@@ -32,6 +32,7 @@ int main()
 
     FILE* fp;
     int i;
+
     daemonize();
 
     fp = fopen(FNAME,"w");
@@ -47,5 +48,8 @@ int main()
         sleep(1);
     }
 
-    exit(1);
+    fclose(fp);
+    closelog();
+    exit(0);
+
 }

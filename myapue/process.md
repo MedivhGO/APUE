@@ -164,11 +164,12 @@
         getpgid();
         setpgid(pid_t pid,pid_t pgid); 指定一个进程到指定组
 
-
-
-
-
-
-
-
 11. 系统日志
+
+        syslog
+
+        <syslog.h>
+
+        openlog();
+        syslog(int priority,const char *format,...);//类似printf priority有具体的级别  error及以上级别就不能执行
+        closelog();
