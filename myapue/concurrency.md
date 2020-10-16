@@ -35,6 +35,9 @@
 
         void  (*signal(int signum,void (*func)(int)))(int);
 
+
+        信号会打断阻塞的系统调用
+
     3. 信号的不可靠
 
     4. 可重入函数
