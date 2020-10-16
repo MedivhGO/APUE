@@ -25,11 +25,15 @@
         信号的响应依赖于中断机制
 
 
+        kill -l
 
+            1-31  标准信号
 
+            32-64 实时信号
 
+    2. signal()
 
-    2. signal
+        void  (*signal(int signum,void (*func)(int)))(int);
 
     3. 信号的不可靠
 
