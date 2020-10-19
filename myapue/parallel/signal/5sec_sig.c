@@ -12,8 +12,9 @@ static void alrm_handler(int s)
 int main()
 {
 
+    signal(SIGALRM, alrm_handler); //要放在alarm前
     alarm(5);
-    signal(SIGALRM, alrm_handler);
+
 
     int64_t count = 0;
     while (loop)
