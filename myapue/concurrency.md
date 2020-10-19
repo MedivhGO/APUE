@@ -76,31 +76,21 @@
 
         响应中断结束后, mask位重新置1
 
-
-
-
-
-
-
-
-
-
-
     6. 信号常用函数
 
-            kill();
+            kill(pid_t pid,int sig); //send signal to a  process
 
-            raise();
+            raise(); // send a signal to a caller
 
-            alarm();
+            alarm(unsigned int seconds); //
 
-            pause();
+            pause(); //wait for signal
 
             abort();
 
             system();
 
-            sleep();
+            sleep(); //alarm + pause 封装 可能还是nanosleep封装
 
 
     7. 信号集
