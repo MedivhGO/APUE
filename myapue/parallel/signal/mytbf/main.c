@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <signal.h>
+#include <string.h>
 
 #include "mytbf.h"
 
@@ -58,11 +59,9 @@ int main(int argc, char **argv)
 
         size = mytbf_fetchtoken(tbf,BUFFSIZE);
 
-
-
-
-
-
+        if (size < 0){
+            fprintf(stderr,"mytbf_fetchtoken():%s\n",strerror(-size));
+        }
 
         while((len = read(sfd, buf, size)) < 0)
         {
@@ -73,7 +72,6 @@ int main(int argc, char **argv)
         }
         if (len == 0)
             break;
-
 
         if (size-len > 0)
             mytbf_returntoken(tbf,size-len);
@@ -98,7 +96,6 @@ int main(int argc, char **argv)
 
 
     mytbf_destory(tbf);
-
     close(sfd);
     exit(0);
 }
