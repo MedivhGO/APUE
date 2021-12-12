@@ -46,9 +46,3 @@ char *getpass(const char *prompt);
 getpass 用于从键盘读取用户输入，但屏幕不回显
 prompt为屏幕提示字符
 函数返回值为用户键盘输入的字符串
-
-
-
-
-
- 
