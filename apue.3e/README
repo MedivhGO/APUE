@@ -8,3 +8,11 @@ Please direct questions, suggestions, and bug reports to sar@apuebook.com.
 
 Steve Rago
 January 2013
+
+
+在www.apuebook.com上下载下来APUE书上的源码
+因为书中的源码包含“apue.h”，“error.h”而默认情况下编译器是找不到这两个头文件的，所以我们在下载的源代码包的
+include和 lib文件夹中找到这两个文件
+修改apue.h文件
+在倒数第二行添加语句#include "error.c"
+修改完成后将他们复制到/usr/local/include 文件夹下即可编译书上的源文件了。
